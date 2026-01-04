@@ -1,4 +1,4 @@
-Using a 555 timer I made a clock
+Using a 555 timer, a vairiable resistor and some fixed resistors, I made a clock signal that pulses every second (1hz) to 1000 times a second (1khz).
 
 
 I have made a 16 bit counter that counts up to 65536 (or 2^16) as my logisim ROM can store 64k x 16 bit instructions. When I branch I can only access the first 128 (2^8 (because of using an 8 bit ram in logisim)) but I don't think I'll be using anywhere near that many instructions, and even if I do then I just need to make sure I don't need to branch to them.
